@@ -1,0 +1,397 @@
+
+
+Newfoundland and Labrador			Total: 7
+# Avalon
+# Bonavista—Burin—Trinity
+# Coast of Bays—Central—Notre Dame
+# Labrador
+# Long Range Mountains
+# St. John's East
+# St. John's South—Mount Pearl
+
+Nova Scotia							Total: 11
+# Cape Breton—Canso
+# Central Nova
+# Cumberland—Colchester
+# Dartmouth—Cole Harbour
+# Halifax
+# Halifax West
+# Kings—Hants
+# Sackville—Preston—Chezzetcook
+# South Shore—St. Margarets
+# Sydney—Victoria
+# West Nova
+
+Prince Edward Island				Total: 4
+# Cardigan
+# Charlottetown
+# Egmont
+# Malpeque
+
+New Brunswick						Total: 10
+# Acadie—Bathurst
+# Beauséjour
+# Fredericton
+# Fundy Royal
+# Madawaska—Restigouche
+# Miramichi—Grand Lake
+# Moncton—Riverview—Dieppe
+# New Brunswick Southwest
+# Saint John—Rothesay
+# Tobique—Mactaquac
+
+Quebec								Total: 78
+Eastern Quebec (5)
+# Avignon—La Mitis—Matane—Matapédia
+# Bellechasse—Les Etchemins—Lévis
+# Gaspésie—Les Îles-de-la-Madeleine
+# Montmagny—L'Islet—Kamouraska—Rivière-du-Loup
+# Rimouski-Neigette—Témiscouata—Les Basques
+Côte-Nord and Saguenay (5)
+# Beauport—Côte-de-Beaupré—Île d'Orléans—Charlevoix
+# Chicoutimi—Le Fjord
+# Jonquière
+# Lac-Saint-Jean
+# Manicouagan
+Quebec City (5)
+# Beauport—Limoilou
+# Charlesbourg—Haute-Saint-Charles
+# Louis-Hébert
+# Louis-Saint-Laurent
+# Québec
+Central Quebec (9)
+# Bécancour—Nicolet—Saurel
+# Berthier—Maskinongé
+# Joliette
+# Lévis—Lotbinière
+# Montcalm
+# Portneuf—Jacques-Cartier
+# Repentigny
+# Saint-Maurice—Champlain
+# Trois-Rivières
+Eastern Townships (9)
+# Beauce
+# Brome—Missisquoi
+# Compton—Stanstead
+# Drummond
+# Mégantic—L'Érable
+# Richmond—Arthabaska
+# Saint-Hyacinthe—Bagot
+# Shefford
+# Sherbrooke
+Montérégie (10)
+# Beloeil—Chambly
+# Brossard—Saint-Lambert
+# Châteauguay—Lacolle
+# Longueuil—Charles-LeMoyne
+# Longueuil—Saint-Hubert
+# Montarville
+# Pierre-Boucher—Les Patriotes—Verchères
+# Saint-Jean
+# Salaberry—Suroît
+# Vaudreuil—Soulanges
+Central Montreal (10)
+# Hochelaga
+# LaSalle—Émard—Verdun
+# Laurier—Sainte-Marie
+# Mount Royal
+# Notre-Dame-de-Grâce—Westmount
+# Outremont
+# Papineau
+# Rosemont—La Petite-Patrie
+# Saint-Léonard—Saint-Michel
+# Ville-Marie—Le Sud-Ouest—Île-des-Sœurs
+Suburban Montreal and Laval (13)
+# Alfred-Pellan
+# Ahuntsic-Cartierville
+# Bourassa
+# Dorval—Lachine—LaSalle
+# Honoré-Mercier
+# Lac-Saint-Louis
+# La Pointe-de-l'Île
+# La Prairie
+# Laval—Les Îles
+# Marc-Aurèle-Fortin
+# Pierrefonds—Dollard
+# Saint-Laurent
+# Vimy
+Laurentides, Outaouais and Northern Quebec (12)
+# Abitibi—Baie-James—Nunavik—Eeyou
+# Abitibi—Témiscamingue
+# Argenteuil—La Petite-Nation
+# Gatineau
+# Hull—Aylmer
+# Laurentides—Labelle
+# Mirabel
+# Pontiac
+# Rivière-des-Mille-Îles
+# Rivière-du-Nord
+# Terrebonne
+# Thérèse-De Blainville
+
+Ontario								Total: 121
+Northern Ontario (9)
+# Algoma—Manitoulin—Kapuskasing
+# Kenora
+# Nickel Belt
+# Nipissing—Timiskaming
+# Sault Ste. Marie
+# Sudbury
+# Thunder Bay—Rainy River
+# Thunder Bay—Superior North
+# Timmins—James Bay
+Ottawa (8)
+# Carleton
+# Kanata—Carleton
+# Nepean
+# Ottawa Centre
+# Orléans
+# Ottawa South
+# Ottawa—Vanier
+# Ottawa West—Nepean
+Eastern Ontario (8)
+# Bay of Quinte
+# Glengarry—Prescott—Russell
+# Kingston and the Islands
+# Lanark—Frontenac—Kingston
+# Leeds—Grenville—Thousand Islands and Rideau Lakes
+# Hastings—Lennox and Addington
+# Renfrew—Nipissing—Pembroke
+# Stormont—Dundas—South Glengarry
+Central Ontario (9)
+# Barrie—Innisfil
+# Barrie—Springwater—Oro-Medonte
+# Dufferin—Caledon
+# Haliburton—Kawartha Lakes—Brock
+# Northumberland—Peterborough South
+# Parry Sound—Muskoka
+# Peterborough—Kawartha
+# Simcoe—Grey
+# Simcoe North
+Durham and York Regions (15)
+# Ajax
+# Aurora—Oak Ridges—Richmond Hill
+# Durham
+# King—Vaughan
+# Markham—Stouffville
+# Markham—Thornhill
+# Markham—Unionville
+# Newmarket—Aurora
+# Oshawa
+# Pickering—Uxbridge
+# Richmond Hill
+# Thornhill
+# Vaughan—Woodbridge
+# Whitby
+# York—Simcoe
+Toronto (25)
+# Beaches—East York
+# Davenport
+# Don Valley East
+# Don Valley North
+# Don Valley West
+# Eglinton—Lawrence
+# Etobicoke Centre
+# Etobicoke—Lakeshore
+# Etobicoke North
+# Humber River—Black Creek
+# Parkdale—High Park
+# Scarborough—Agincourt
+# Scarborough Centre
+# Scarborough—Guildwood
+# Scarborough North (electoral district)
+# Scarborough—Rouge Park
+# Scarborough Southwest
+# Spadina—Fort York
+# Toronto Centre
+# Toronto—Danforth
+# Toronto—St. Paul's
+# University—Rosedale
+# Willowdale
+# York Centre
+# York South—Weston
+Brampton, Mississauga and Oakville (13)
+# Brampton Centre
+# Brampton East
+# Brampton North
+# Brampton South
+# Brampton West
+# Mississauga Centre
+# Mississauga East—Cooksville
+# Mississauga—Erin Mills
+# Mississauga—Lakeshore
+# Mississauga—Malton
+# Mississauga—Streetsville
+# Oakville
+# Oakville North—Burlington
+Hamilton, Burlington and Niagara (10)
+# Burlington
+# Flamborough—Glanbrook
+# Hamilton Centre
+# Hamilton East—Stoney Creek
+# Hamilton Mountain
+# Hamilton West—Ancaster—Dundas
+# Niagara Centre
+# Niagara Falls
+# Niagara West
+# St. Catharines
+Midwestern Southern Ontario (14)
+# Brantford—Brant
+# Bruce—Grey—Owen Sound
+# Cambridge
+# Guelph
+# Haldimand—Norfolk
+# Huron—Bruce
+# Kitchener Centre
+# Kitchener—Conestoga
+# Kitchener South—Hespeler
+# Milton
+# Oxford
+# Perth—Wellington
+# Waterloo
+# Wellington—Halton Hills
+Southwestern Ontario (10)
+# Chatham-Kent—Leamington
+# Elgin—Middlesex—London
+# Essex
+# Lambton—Kent—Middlesex
+# London—Fanshawe
+# London North Centre
+# London West
+# Sarnia—Lambton
+# Windsor—Tecumseh
+# Windsor West
+
+Manitoba							Total: 14
+Rural (6)
+# Brandon—Souris
+# Churchill—Keewatinook Aski
+# Dauphin—Swan River—Neepawa
+# Portage—Lisgar
+# Provencher
+# Selkirk—Interlake—Eastman
+Winnipeg (8)
+# Charleswood—St. James—Assiniboia—Headingley
+# Elmwood—Transcona
+# Kildonan—St. Paul
+# Saint Boniface—Saint Vital
+# Winnipeg Centre
+# Winnipeg North
+# Winnipeg South
+# Winnipeg South Centre
+
+Saskatchewan						Total: 14
+Rural (8)
+# Battlefords—Lloydminster
+# Carlton Trail—Eagle Creek
+# Cypress Hills—Grasslands
+# Desnethé—Missinippi—Churchill River
+# Moose Jaw—Lake Centre—Lanigan
+# Prince Albert
+# Souris—Moose Mountain
+# Yorkton—Melville
+Regina (3)
+# Regina—Lewvan
+# Regina—Qu'Appelle
+# Regina—Wascana
+Saskatoon (3)
+# Saskatoon—Grasswood
+# Saskatoon—University
+# Saskatoon West
+
+Alberta								Total: 34
+Rural (15)
+# Banff—Airdrie
+# Battle River—Crowfoot
+# Bow River
+# Foothills
+# Fort McMurray—Cold Lake
+# Grande Prairie—Mackenzie
+# Lakeland
+# Lethbridge
+# Medicine Hat—Cardston—Warner
+# Peace River—Westlock
+# Red Deer—Lacombe
+# Red Deer—Mountain View
+# Sherwood Park—Fort Saskatchewan
+# Sturgeon River—Parkland
+# Yellowhead
+Edmonton and environs (9)
+# Edmonton Centre
+# Edmonton Griesbach
+# Edmonton Manning
+# Edmonton Mill Woods
+# Edmonton Riverbend
+# Edmonton Strathcona
+# Edmonton West
+# Edmonton—Wetaskiwin
+# St. Albert—Edmonton
+Calgary (10)
+# Calgary Centre
+# Calgary Confederation
+# Calgary Forest Lawn
+# Calgary Heritage
+# Calgary Midnapore
+# Calgary Nose Hill
+# Calgary Rocky Ridge
+# Calgary Shepard
+# Calgary Signal Hill
+# Calgary Skyview
+
+British Columbia						Total: 42
+Northern Interior B.C. (3)
+# Cariboo—Prince George
+# Prince George—Peace River—Northern Rockies
+# Skeena—Bulkley Valley
+Southern Interior B.C. (6)
+# Central Okanagan—Similkameen—Nicola
+# Kamloops—Thompson—Cariboo
+# Kelowna—Lake Country
+# Kootenay—Columbia
+# North Okanagan—Shuswap
+# South Okanagan—West Kootenay
+Fraser Valley and Southern Lower Mainland (11)
+# Abbotsford
+# Chilliwack—Hope
+# Cloverdale—Langley City
+# Delta
+# Fleetwood—Port Kells
+# Langley—Aldergrove
+# Mission—Matsqui—Fraser Canyon
+# Pitt Meadows—Maple Ridge
+# South Surrey—White Rock
+# Surrey Centre
+# Surrey—Newton
+Vancouver and Northern Lower Mainland (15)
+# Burnaby North—Seymour
+# Burnaby South
+# Coquitlam—Port Coquitlam
+# New Westminster—Burnaby
+# North Vancouver
+# Port Moody—Coquitlam
+# Richmond Centre
+# Steveston—Richmond East
+# Vancouver Centre
+# Vancouver East
+# Vancouver Granville
+# Vancouver Kingsway
+# Vancouver Quadra
+# Vancouver South
+# West Vancouver—Sunshine Coast—Sea to Sky Country
+Vancouver Island (7)
+# Courtenay—Alberni
+# Cowichan—Malahat—Langford
+# Esquimalt—Saanich—Sooke
+# Nanaimo—Ladysmith
+# North Island—Powell River
+# Saanich—Gulf Islands
+# Victoria
+
+Yukon									Total: 1
+# Yukon
+
+Northwest Territories					Total: 1
+# Northwest Territories
+
+Nunavut									Total: 1
+# Nunavut
