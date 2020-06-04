@@ -1,4 +1,5 @@
-
+List of all ridings in Canada
+2020-06-04
 
 Newfoundland and Labrador			Total: 7
 # Avalon
@@ -387,11 +388,11 @@ Vancouver Island (7)
 # Saanich—Gulf Islands
 # Victoria
 
-Yukon									Total: 1
+Yukon	(1)								Total: 1
 # Yukon
 
-Northwest Territories					Total: 1
+Northwest Territories	(1)			Total: 1
 # Northwest Territories
 
-Nunavut									Total: 1
+Nunavut	(1)						Total: 1
 # Nunavut
