@@ -9,7 +9,7 @@ colours_federal <-
   c("steelblue1", # Bloc Quebecois
     "royalblue4", # Conservatives
     "green3",     # Greens
-    "red3",       # Liberal
+    "red3",       # Liberals
     "orange2")    # NDP)
 
 #--------------------------------------------#
