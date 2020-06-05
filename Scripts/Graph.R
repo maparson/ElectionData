@@ -12,6 +12,9 @@ colours_federal <-
     "red3",       # Liberals
     "orange2")    # NDP)
 
+parties_federal <-
+  c("BQ", "CON", "GRN", "LIB", "NDP")
+
 #--------------------------------------------#
 # Map T1: Simple first try.
 # Simple 
@@ -35,9 +38,18 @@ Graph.T1 <- ggplot(data = Dat.T1,
 # Edmonton
 #--------------------------------------------#
 
-map_ab_ed <- hex.draw.coord(index_ed$x, index_ed$y)
+map_ab_ed <- hex.draw.coord(index_ed$x, index_ed$y, labl = index_ed$FED)
+rownames(index_ed) <- index_ed$FED
 
-ggplot(fortify(map_ab_ed)) + geom_polygon(aes(x = long, y = lat, group = piece, fill = piece), colour = "black") + coord_equal()
+map_ab_ed_dat <- tibble(fortify(map_ab_ed)) %>% left_join(index_ed, by = c("id" = "FED"))
+
+ggplot(map_ab_ed_dat) + 
+  geom_polygon(aes(x = long, y = lat, group = id, fill = PARTY), 
+               colour = "white", size = 2) + 
+  #geom_text(aes(x = long, y = lat, label = id)) +
+  scale_fill_manual(limits = parties_federal, values = colours_federal) +
+  theme_void() +
+  coord_equal()
 
 
 
