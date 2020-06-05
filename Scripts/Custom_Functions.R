@@ -82,8 +82,7 @@ hex.draw.grid <- function(x = 1, y = 1) {
 # Output: A shapefile of specific polygons to plot in a larger grid.
 #---------------------------------------------------------------------------#
 
-hex.draw.coord <- function(xindex = c(1), yindex = c(1)) {
-  
+hex.draw.coord <- function(xindex = c(1), yindex = c(1), labl = NULL) {
   dims = c(max(xindex), max(yindex))
   ncells = length(xindex)
   
@@ -119,6 +118,9 @@ hex.draw.coord <- function(xindex = c(1), yindex = c(1)) {
   pl = list()
   
   npolygons = nrow(centroids)
+  
+  if(is.null(labl)) {labl = 1:npolygons}
+  
   for (i in 1:npolygons) {
     x = centroids$x[i]
     y = centroids$y[i]
@@ -130,8 +132,13 @@ hex.draw.coord <- function(xindex = c(1), yindex = c(1)) {
     pl = list.append(pl, p)
   }
   
-  pss = Polygons(pl, 1)
-  spss = SpatialPolygons(list(pss))
+  pss = list()
+  
+  for(j in 1:npolygons) {
+    pss = list.append(pss, Polygons(list(pl[[j]]), as.character(labl[j])))
+  }
+  
+  spss = SpatialPolygons(pss)
   
   return(spss)
 }
