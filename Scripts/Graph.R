@@ -31,12 +31,14 @@ Graph.T1 <- ggplot(data = Dat.T1,
   
 
 #--------------------------------------------#
-# Test of geogrid.
+# Test of my grid map function
+# Edmonton
 #--------------------------------------------#
-# 
-# Shp.Hex1 <- calculate_grid(shape = Shp.Can2,
-#                            grid_type = "hexagon",
-#                            seed = 1)
+
+map_ab_ed <- hex.draw.coord(index_ed$x, index_ed$y)
+
+ggplot(fortify(map_ab_ed)) + geom_polygon(aes(x = long, y = lat, group = piece, fill = piece), colour = "black") + coord_equal()
+
 
 
 
