@@ -42,11 +42,17 @@ map_ab_ed <- hex.draw.coord(index_ed$x, index_ed$y, labl = index_ed$FED)
 rownames(index_ed) <- index_ed$FED
 
 map_ab_ed_dat <- tibble(fortify(map_ab_ed)) %>% left_join(index_ed, by = c("id" = "FED"))
+map_ab_ed_dat_labels <- map_ab_ed_dat %>%
+  group_by(id) %>%
+  summarise(long = mean(long),
+            lat = mean(lat))
 
 ggplot(map_ab_ed_dat) + 
   geom_polygon(aes(x = long, y = lat, group = id, fill = PARTY), 
                colour = "white", size = 2) + 
-  #geom_text(aes(x = long, y = lat, label = id)) +
+  geom_text(data = map_ab_ed_dat_labels,
+            aes(x = long, y = lat, label = id, group = id),
+            colour = "white", size = 3) +
   scale_fill_manual(limits = parties_federal, values = colours_federal) +
   theme_void() +
   coord_equal()
