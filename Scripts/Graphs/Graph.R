@@ -12,7 +12,7 @@ colours_federal <-
     "red3",       # Liberals
     "orange2")    # NDP)
 
-parties_federal <-
+parties_federal_abv <-
   c("BQ", "CON", "GRN", "LIB", "NDP")
 
 #--------------------------------------------#
@@ -53,7 +53,7 @@ ggplot(map_ab_ed_dat) +
   geom_text(data = map_ab_ed_dat_labels,
             aes(x = long, y = lat, label = id, group = id),
             colour = "white", size = 3) +
-  scale_fill_manual(limits = parties_federal, values = colours_federal) +
+  scale_fill_manual(limits = parties_federal_abv, values = colours_federal) +
   theme_void() +
   coord_equal()
 
