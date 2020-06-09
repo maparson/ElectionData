@@ -1,0 +1,353 @@
+﻿Geo Code,Geo Name,Line Number
+"01","Canada",2
+"10","Newfoundland and Labrador",1055
+"10001","Avalon",2108
+"10002","Bonavista--Burin--Trinity",3161
+"10003","Coast of Bays--Central--Notre Dame",4214
+"10004","Labrador",5267
+"10005","Long Range Mountains",6320
+"10006","St. John's East",7373
+"10007","St. John's South--Mount Pearl",8426
+"11","Prince Edward Island",9479
+"11001","Cardigan",10532
+"11002","Charlottetown",11585
+"11003","Egmont",12638
+"11004","Malpeque",13691
+"12","Nova Scotia",14744
+"12001","Cape Breton--Canso",15797
+"12002","Central Nova",16850
+"12003","Cumberland--Colchester",17903
+"12004","Dartmouth--Cole Harbour",18956
+"12005","Halifax",20009
+"12006","Halifax West",21062
+"12007","Kings--Hants",22115
+"12008","Sackville--Preston--Chezzetcook",23168
+"12009","South Shore--St. Margarets",24221
+"12010","Sydney--Victoria",25274
+"12011","West Nova",26327
+"13","New Brunswick",27380
+"13001","Acadie--Bathurst",28433
+"13002","Beauséjour",29486
+"13003","Fredericton",30539
+"13004","Fundy Royal",31592
+"13005","Madawaska--Restigouche",32645
+"13006","Miramichi--Grand Lake",33698
+"13007","Moncton--Riverview--Dieppe",34751
+"13008","New Brunswick Southwest",35804
+"13009","Saint John--Rothesay",36857
+"13010","Tobique--Mactaquac",37910
+"24","Quebec",38963
+"24001","Abitibi--Baie-James--Nunavik--Eeyou",40016
+"24002","Abitibi--Témiscamingue",41069
+"24003","Ahuntsic-Cartierville",42122
+"24004","Alfred-Pellan",43175
+"24005","Argenteuil--La Petite-Nation",44228
+"24006","Avignon--La Mitis--Matane--Matapédia",45281
+"24007","Beauce",46334
+"24008","Beauport--Limoilou",47387
+"24009","Bécancour--Nicolet--Saurel",48440
+"24010","Bellechasse--Les Etchemins--Lévis",49493
+"24011","Beloeil--Chambly",50546
+"24012","Berthier--Maskinongé",51599
+"24013","Thérèse-De Blainville",52652
+"24014","Pierre-Boucher--Les Patriotes--Verchères",53705
+"24015","Bourassa",54758
+"24016","Brome--Missisquoi",55811
+"24017","Brossard--Saint-Lambert",56864
+"24018","Rimouski-Neigette--Témiscouata--Les Basques",57917
+"24019","Charlesbourg--Haute-Saint-Charles",58970
+"24020","Beauport--Côte-de-Beaupré--Île d'Orléans--Charlevoix",60023
+"24021","Châteauguay--Lacolle",61076
+"24022","Chicoutimi--Le Fjord",62129
+"24023","Compton--Stanstead",63182
+"24024","Dorval--Lachine--LaSalle",64235
+"24025","Drummond",65288
+"24026","Gaspésie--Les Îles-de-la-Madeleine",66341
+"24027","Gatineau",67394
+"24028","Hochelaga",68447
+"24029","Honoré-Mercier",69500
+"24030","Hull--Aylmer",70553
+"24031","Joliette",71606
+"24032","Jonquière",72659
+"24033","La Pointe-de-l'Île",73712
+"24034","La Prairie",74765
+"24035","Lac-Saint-Jean",75818
+"24036","Lac-Saint-Louis",76871
+"24037","LaSalle--Émard--Verdun",77924
+"24038","Laurentides--Labelle",78977
+"24039","Laurier--Sainte-Marie",80030
+"24040","Laval--Les Îles",81083
+"24041","Longueuil--Charles-LeMoyne",82136
+"24042","Lévis--Lotbinière",83189
+"24043","Longueuil--Saint-Hubert",84242
+"24044","Louis-Hébert",85295
+"24045","Louis-Saint-Laurent",86348
+"24046","Manicouagan",87401
+"24047","Mégantic--L'Érable",88454
+"24048","Mirabel",89507
+"24049","Montarville",90560
+"24050","Montcalm",91613
+"24051","Montmagny--L'Islet--Kamouraska--Rivière-du-Loup",92666
+"24052","Mont-Royal",93719
+"24053","Notre-Dame-de-Grâce--Westmount",94772
+"24054","Outremont",95825
+"24055","Papineau",96878
+"24056","Pierrefonds--Dollard",97931
+"24057","Pontiac",98984
+"24058","Portneuf--Jacques-Cartier",100037
+"24059","Québec",101090
+"24060","Repentigny",102143
+"24061","Richmond--Arthabaska",103196
+"24062","Rivière-des-Mille-Îles",104249
+"24063","Rivière-du-Nord",105302
+"24064","Rosemont--La Petite-Patrie",106355
+"24065","Marc-Aurèle-Fortin",107408
+"24066","Saint-Hyacinthe--Bagot",108461
+"24067","Saint-Jean",109514
+"24068","Saint-Laurent",110567
+"24069","Saint-Léonard--Saint-Michel",111620
+"24070","Saint-Maurice--Champlain",112673
+"24071","Salaberry--Suroît",113726
+"24072","Shefford",114779
+"24073","Sherbrooke",115832
+"24074","Vaudreuil--Soulanges",116885
+"24075","Terrebonne",117938
+"24076","Trois-Rivières",118991
+"24077","Ville-Marie--Le Sud-Ouest--Île-des-Soeurs",120044
+"24078","Vimy",121097
+"35","Ontario",122150
+"35001","Ajax",123203
+"35002","Algoma--Manitoulin--Kapuskasing",124256
+"35003","Aurora--Oak Ridges--Richmond Hill",125309
+"35004","Barrie--Innisfil",126362
+"35005","Barrie--Springwater--Oro-Medonte",127415
+"35006","Bay of Quinte",128468
+"35007","Beaches--East York",129521
+"35008","Brampton Centre",130574
+"35009","Brampton East",131627
+"35010","Brampton North",132680
+"35011","Brampton South",133733
+"35012","Brampton West",134786
+"35013","Brantford--Brant",135839
+"35014","Bruce--Grey--Owen Sound",136892
+"35015","Burlington",137945
+"35016","Cambridge",138998
+"35017","Chatham-Kent--Leamington",140051
+"35018","Davenport",141104
+"35019","Don Valley East",142157
+"35020","Don Valley North",143210
+"35021","Don Valley West",144263
+"35022","Dufferin--Caledon",145316
+"35023","Durham",146369
+"35024","Eglinton--Lawrence",147422
+"35025","Elgin--Middlesex--London",148475
+"35026","Essex",149528
+"35027","Etobicoke Centre",150581
+"35028","Etobicoke--Lakeshore",151634
+"35029","Etobicoke North",152687
+"35030","Flamborough--Glanbrook",153740
+"35031","Glengarry--Prescott--Russell",154793
+"35032","Guelph",155846
+"35033","Haldimand--Norfolk",156899
+"35034","Haliburton--Kawartha Lakes--Brock",157952
+"35035","Hamilton Centre",159005
+"35036","Hamilton East--Stoney Creek",160058
+"35037","Hamilton Mountain",161111
+"35038","Hamilton West--Ancaster--Dundas",162164
+"35039","Hastings--Lennox and Addington",163217
+"35040","Huron--Bruce",164270
+"35041","Kanata--Carleton",165323
+"35042","Kenora",166376
+"35043","King--Vaughan",167429
+"35044","Kingston and the Islands",168482
+"35045","Kitchener Centre",169535
+"35046","Kitchener--Conestoga",170588
+"35047","Kitchener South--Hespeler",171641
+"35048","Lambton--Kent--Middlesex",172694
+"35049","Lanark--Frontenac--Kingston",173747
+"35050","Leeds-Grenville-Thousand Islands and Rideau Lakes",174800
+"35051","London--Fanshawe",175853
+"35052","London North Centre",176906
+"35053","London West",177959
+"35054","Markham--Stouffville",179012
+"35055","Markham--Thornhill",180065
+"35056","Markham--Unionville",181118
+"35057","Milton",182171
+"35058","Mississauga Centre",183224
+"35059","Mississauga East--Cooksville",184277
+"35060","Mississauga--Erin Mills",185330
+"35061","Mississauga--Lakeshore",186383
+"35062","Mississauga--Malton",187436
+"35063","Mississauga--Streetsville",188489
+"35064","Nepean",189542
+"35065","Newmarket--Aurora",190595
+"35066","Niagara Centre",191648
+"35067","Niagara Falls",192701
+"35068","Niagara West",193754
+"35069","Nickel Belt",194807
+"35070","Nipissing--Timiskaming",195860
+"35071","Northumberland--Peterborough South",196913
+"35072","Oakville",197966
+"35073","Oakville North--Burlington",199019
+"35074","Oshawa",200072
+"35075","Ottawa Centre",201125
+"35076","Orléans",202178
+"35077","Ottawa South",203231
+"35078","Ottawa--Vanier",204284
+"35079","Ottawa West--Nepean",205337
+"35080","Oxford",206390
+"35081","Parkdale--High Park",207443
+"35082","Parry Sound--Muskoka",208496
+"35083","Perth--Wellington",209549
+"35084","Peterborough--Kawartha",210602
+"35085","Pickering--Uxbridge",211655
+"35086","Renfrew--Nipissing--Pembroke",212708
+"35087","Richmond Hill",213761
+"35088","Carleton",214814
+"35089","St. Catharines",215867
+"35090","Toronto--St. Paul's",216920
+"35091","Sarnia--Lambton",217973
+"35092","Sault Ste. Marie",219026
+"35093","Scarborough--Agincourt",220079
+"35094","Scarborough Centre",221132
+"35095","Scarborough--Guildwood",222185
+"35096","Scarborough North",223238
+"35097","Scarborough--Rouge Park",224291
+"35098","Scarborough Southwest",225344
+"35099","Simcoe--Grey",226397
+"35100","Simcoe North",227450
+"35101","Spadina--Fort York",228503
+"35102","Stormont--Dundas--South Glengarry",229556
+"35103","Sudbury",230609
+"35104","Thornhill",231662
+"35105","Thunder Bay--Rainy River",232715
+"35106","Thunder Bay--Superior North",233768
+"35107","Timmins--James Bay",234821
+"35108","Toronto Centre",235874
+"35109","Toronto--Danforth",236927
+"35110","University--Rosedale",237980
+"35111","Vaughan--Woodbridge",239033
+"35112","Waterloo",240086
+"35113","Wellington--Halton Hills",241139
+"35114","Whitby",242192
+"35115","Willowdale",243245
+"35116","Windsor--Tecumseh",244298
+"35117","Windsor West",245351
+"35118","York Centre",246404
+"35119","York--Simcoe",247457
+"35120","York South--Weston",248510
+"35121","Humber River--Black Creek",249563
+"46","Manitoba",250616
+"46001","Brandon--Souris",251669
+"46002","Charleswood--St. James--Assiniboia--Headingley",252722
+"46003","Churchill--Keewatinook Aski",253775
+"46004","Dauphin--Swan River--Neepawa",254828
+"46005","Elmwood--Transcona",255881
+"46006","Kildonan--St. Paul",256934
+"46007","Portage--Lisgar",257987
+"46008","Provencher",259040
+"46009","Saint Boniface--Saint Vital",260093
+"46010","Selkirk--Interlake--Eastman",261146
+"46011","Winnipeg Centre",262199
+"46012","Winnipeg North",263252
+"46013","Winnipeg South",264305
+"46014","Winnipeg South Centre",265358
+"47","Saskatchewan",266411
+"47001","Battlefords--Lloydminster",267464
+"47002","Cypress Hills--Grasslands",268517
+"47003","Desnethé--Missinippi--Churchill River",269570
+"47004","Carlton Trail--Eagle Creek",270623
+"47005","Moose Jaw--Lake Centre--Lanigan",271676
+"47006","Prince Albert",272729
+"47007","Regina--Lewvan",273782
+"47008","Regina--Qu'Appelle",274835
+"47009","Regina--Wascana",275888
+"47010","Saskatoon--Grasswood",276941
+"47011","Saskatoon--University",277994
+"47012","Saskatoon West",279047
+"47013","Souris--Moose Mountain",280100
+"47014","Yorkton--Melville",281153
+"48","Alberta",282206
+"48001","Banff--Airdrie",283259
+"48002","Battle River--Crowfoot",284312
+"48003","Bow River",285365
+"48004","Calgary Centre",286418
+"48005","Calgary Confederation",287471
+"48006","Calgary Forest Lawn",288524
+"48007","Calgary Heritage",289577
+"48008","Calgary Midnapore",290630
+"48009","Calgary Nose Hill",291683
+"48010","Calgary Rocky Ridge",292736
+"48011","Calgary Shepard",293789
+"48012","Calgary Signal Hill",294842
+"48013","Calgary Skyview",295895
+"48014","Edmonton Centre",296948
+"48015","Edmonton Griesbach",298001
+"48016","Edmonton Manning",299054
+"48017","Edmonton Mill Woods",300107
+"48018","Edmonton Riverbend",301160
+"48019","Edmonton Strathcona",302213
+"48020","Edmonton West",303266
+"48021","Edmonton--Wetaskiwin",304319
+"48022","Foothills",305372
+"48023","Fort McMurray--Cold Lake",306425
+"48024","Grande Prairie--Mackenzie",307478
+"48025","Lakeland",308531
+"48026","Lethbridge",309584
+"48027","Medicine Hat--Cardston--Warner",310637
+"48028","Peace River--Westlock",311690
+"48029","Red Deer--Mountain View",312743
+"48030","Red Deer--Lacombe",313796
+"48031","St. Albert--Edmonton",314849
+"48032","Sherwood Park--Fort Saskatchewan",315902
+"48033","Sturgeon River--Parkland",316955
+"48034","Yellowhead",318008
+"59","British Columbia",319061
+"59001","Abbotsford",320114
+"59002","Burnaby North--Seymour",321167
+"59003","Burnaby South",322220
+"59004","Cariboo--Prince George",323273
+"59005","Central Okanagan--Similkameen--Nicola",324326
+"59006","Chilliwack--Hope",325379
+"59007","Cloverdale--Langley City",326432
+"59008","Coquitlam--Port Coquitlam",327485
+"59009","Courtenay--Alberni",328538
+"59010","Cowichan--Malahat--Langford",329591
+"59011","Delta",330644
+"59012","Fleetwood--Port Kells",331697
+"59013","Kamloops--Thompson--Cariboo",332750
+"59014","Kelowna--Lake Country",333803
+"59015","Kootenay--Columbia",334856
+"59016","Langley--Aldergrove",335909
+"59017","Mission--Matsqui--Fraser Canyon",336962
+"59018","Nanaimo--Ladysmith",338015
+"59019","New Westminster--Burnaby",339068
+"59020","North Okanagan--Shuswap",340121
+"59021","North Vancouver",341174
+"59022","Pitt Meadows--Maple Ridge",342227
+"59023","Port Moody--Coquitlam",343280
+"59024","Prince George--Peace River--Northern Rockies",344333
+"59025","Richmond Centre",345386
+"59026","Esquimalt--Saanich--Sooke",346439
+"59027","Saanich--Gulf Islands",347492
+"59028","Skeena--Bulkley Valley",348545
+"59029","South Okanagan--West Kootenay",349598
+"59030","South Surrey--White Rock",350651
+"59031","Steveston--Richmond East",351704
+"59032","Surrey Centre",352757
+"59033","Surrey--Newton",353810
+"59034","Vancouver Centre",354863
+"59035","Vancouver East",355916
+"59036","Vancouver Granville",356969
+"59037","North Island--Powell River",358022
+"59038","Vancouver Kingsway",359075
+"59039","Vancouver Quadra",360128
+"59040","Vancouver South",361181
+"59041","Victoria",362234
+"59042","West Vancouver--Sunshine Coast--Sea to Sky Country",363287
+"60","Yukon",364340
+"60001","Yukon",365393
+"61","Northwest Territories",366446
+"61001","Northwest Territories",367499
+"62","Nunavut",368552
+"62001","Nunavut",369605
