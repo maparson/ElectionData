@@ -74,7 +74,9 @@ dat_results_2015_individual <- dat_results_2015_individual_raw %>%
   summarise(votes = sum(`Votes Obtained`)) %>% ungroup() %>%
   pivot_wider(names_from = party,
               values_from = votes) %>%
-  rename(districtno = `Electoral District Number`)
+  rename(districtno = `Electoral District Number`) %>%
+  #replace_na(list(CON = 0, GR = 0, LIB = 0, NDP = 0, OTH = 0, IND = 0, BQ = 0)) %>% # Use this if you need 0s and not NAs.
+  dplyr::select(districtno, LIB, CON, NDP, BQ, GR, IND, OTH)
 
 
 
