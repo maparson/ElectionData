@@ -56,7 +56,9 @@ index_vc <- tribble(
    1,  1,  "FV",  "CON",  "Richmond Centre",
    2,  1,  "FV",  "CON",  "Steveston - Richmond East",
    4,  1,  "BB",  "NDP",  "New Westminster - Burnaby",
-   4,  2,  "BB",  "NDP",  "Burnaby South"
+   4,  2,  "BB",  "NDP",  "Burnaby South",
+   2,  4,  "NV",  "LIB",  "North Vancouver",
+   4,  3,  "NV",  "LIB",  "Burnaby North - Seymour",
    
 )
 
@@ -73,8 +75,6 @@ index_lm <- tribble(
    2,  2,  "LM",  "CON",  "South Surrey - White Rock",
    3,  3,  "LM",  "CON",  "Cloverdale - Langley City",
    3,  2,  "LM",  "CON",  "Langley - Aldergrove",
-   1,  4,  "NV",  "LIB",  "North Vancouver",
-   2,  5,  "NV",  "LIB",  "Burnaby North - Seymour",
    4,  4,  "LM",  "LIB",  "Coquitlam - Port Coquitlam",
    4,  3,  "LM",  "CON",  "Pitt Meadows - Maple Ridge",
    4,  2,  "LM",  "CON",  "Abbotsford",
@@ -119,11 +119,11 @@ index_in <- tribble(
 # Merge BC together #
 
 index_bc <- (index_lm %>% mutate(x = x + 6)) %>%
-   add_row(index_vc %>% mutate(y = y + 4,
+   add_row(index_vc %>% mutate(y = y + 2,
                                x = x + 0)) %>%
-   add_row(index_in %>% mutate(y = y + 4,
-                               x = x + 8)) %>%
+   add_row(index_in %>% mutate(y = y + 5,
+                               x = x + 6)) %>%
    add_row(index_vi %>% mutate(y = y + 7,
-                               x = x + 4))
+                               x = x + 0))
    
 

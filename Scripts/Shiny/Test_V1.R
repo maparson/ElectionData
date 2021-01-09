@@ -10,37 +10,50 @@ palette(c("#E41A1C", "#377EB8", "#4DAF4A", "#984EA3",
 library(shiny)
 
 ui <- fluidPage(
-  headerPanel('Iris k-means clustering'),
+  headerPanel('British Columbia Electoral Map'),
   sidebarPanel(
-    selectInput('xcol', 'X Variable', names(iris)),
-    selectInput('ycol', 'Y Variable', names(iris),
-                selected = names(iris)[[2]]),
-    numericInput('clusters', 'Cluster count', 3,
-                 min = 1, max = 9)
+    selectInput('party', 'Party', 
+                choices = parties_federal_abv,
+                selected = parties_federal_abv,
+                multiple = TRUE),
+    selectInput('region', 'Region', 
+                choices = unique(map_bc_dat$R),
+                selected = unique(map_bc_dat$R),
+                multiple = TRUE)
   ),
   mainPanel(
-    plotOutput('plot1')
+    plotOutput('plot1',
+    hover = hoverOpts(id = "plot_hover")
+    ),
+    plotOutput('plot2')
   )
 )
 
 server <- function(input, output) {
   
   selectedData <- reactive({
-    iris[, c(input$xcol, input$ycol)]
+    map_bc_dat %>% filter(PARTY %in% input$party & R %in% input$region)
   })
-  
-  clusters <- reactive({
-    kmeans(selectedData(), input$clusters)
-  })
-  
+
   output$plot1 <- renderPlot({
-    par(mar = c(5.1, 4.1, 0, 1))
-    plot(selectedData(),
-         col = clusters()$cluster,
-         pch = 20, cex = 3)
-    points(clusters()$centers, pch = 4, cex = 4, lwd = 4)
+    ggplot() + 
+    geom_polygon_interactive(data = selectedData(),
+                 aes(x = long, y = lat, group = id, fill = PARTY,
+                     data_id = id), 
+                 colour = "white", size = 1) + 
+    scale_fill_manual(limits = parties_federal_abv, values = colours_federal) +
+    theme_void() +
+    coord_sf()
   })
   
+  output$plot2 <- renderPlot({
+    ggplot(Shp.Can2 %>% filter(grepl("British", PRNAME))) + geom_sf()
+  })
+  
+  output$hover_info <- renderPrint({
+    cat("input$plot_hover$id:\n")
+    str(input$plot_hover)
+  })
 }
 
 shinyApp(ui = ui, server = server)

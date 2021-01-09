@@ -237,14 +237,19 @@ map_bc_cent <- coordinates(map_bc)
 #                                lat = map_bc_cent[,1],
 #                                long = map_bc_cent[,2])
 
-gg_bc <- ggplot(map_bc_dat) + 
-  geom_polygon(aes(x = long, y = lat, group = id, fill = PARTY), 
+gg_bc <- ggplot() + 
+  geom_polygon(data = map_bc_dat,
+               aes(x = long, y = lat, group = id, fill = PARTY), 
                colour = "white", size = 1) + 
   # geom_text(data = map_bc_dat_labels,
   #           aes(x = long, y = lat, label = FED, group = FED),
   #           colour = "white", size = 3) +
+  geom_sf(data = as(aggregate(map_bc), "sf"),
+          fill = NA,
+          colour = "grey",
+          lty = "dot") +
   scale_fill_manual(limits = parties_federal_abv, values = colours_federal) +
   theme_void() +
-  coord_equal()
+  coord_sf()
 
 
