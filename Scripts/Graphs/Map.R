@@ -40,13 +40,20 @@ for(prov in temp.completeprovs) {
   
   temp.merge <- get(paste0("index_", tolower(prov))) # Get the groupings from Grids-province.R
 
-  temp.dat3 <- 
+  temp.dat3 <- # Merge to the Grids-province.R data
     temp.dat2 %>%
     left_join(temp.merge,
               by = c("fedname" = "FED"))
   
-  assign(paste0("Shp.", prov), temp.dat3)
+  temp.dat4 <- # Collapse along the regions
+    temp.dat3 %>% group_by(R) %>% summarise()
   
+  temp.dat5 <- # Smooth the regions
+    smooth(drop_crumbs(temp.dat4, threshold = units::set_units(1000, km^2)), method = "chaikin")
+    
+  assign(paste0("Shp.", prov), temp.dat3)
+  assign(paste0("Shp.", prov, ".Reg"), temp.dat4)
+  assign(paste0("Shp.", prov, ".Reg.Sm"), temp.dat5)
 }
 
 rm(list=ls(pattern="temp."))

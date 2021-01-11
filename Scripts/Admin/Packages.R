@@ -20,7 +20,8 @@ packagelist <- c(
   "rmapshaper",
   "geogrid",
   "rlist",
-  "ggiraph"
+  "ggiraph",
+  "blogdown"
 )
 
 # Get packages function.

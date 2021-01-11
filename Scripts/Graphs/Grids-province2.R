@@ -120,7 +120,7 @@ index_in <- tribble(
 index_bc <- (index_lm %>% mutate(x = x + 6)) %>%
    add_row(index_vc %>% mutate(y = y + 2,
                                x = x + 0)) %>%
-   add_row(index_in %>% mutate(y = y + 10,
+   add_row(index_in %>% mutate(y = y + 8,
                                x = x + 6)) %>%
    add_row(index_vi %>% mutate(y = y + 7,
                                x = x + 0))
