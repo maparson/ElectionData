@@ -17,6 +17,11 @@ parties_federal_abv <-
   c("BQ", "CON", "GRN", "LIB", "NDP", "IND")
 
 #--------------------------------------------#
+# Set other graphical parameters
+
+param_annotate_size <- 5  # The size of the text used to label the regions in hex maps
+
+#--------------------------------------------#
 # Map T1: Simple first try.
 # Simple 
 #--------------------------------------------#
@@ -246,10 +251,14 @@ gg_bc <- ggplot() +
   #           colour = "white", size = 3) +
   geom_sf(data = as(aggregate(map_bc), "sf"),
           fill = NA,
-          colour = "grey",
-          lty = "dot") +
+          colour = "white") +
   scale_fill_manual(limits = parties_federal_abv, values = colours_federal) +
   theme_void() +
+  labs(fill = "") +
+  annotate("text", x = 6, y = 19, label = "Vancouver Island\n & Central Coast", size = param_annotate_size) +
+  annotate("text", x = 7.5, y = 10.5, label = "Central\n Vancouver", size = param_annotate_size) +
+  annotate("text", x = 10.5, y = 13, label = "Interior\n & North", size = param_annotate_size) +
+  annotate("text", x = 15, y = 9.5, label = "Lower\n Mainland", size = param_annotate_size) +
   coord_sf()
 
 
