@@ -9,7 +9,7 @@ library(shiny)
 library(dplyr)
 library(ggplot2)
 
-source("./Scripts/Data/Load_polls.R")
+source("../Scripts/Data/Load_polls.R")
 
 ui <- fluidPage(
     fluidRow(column(3, align = "center",
