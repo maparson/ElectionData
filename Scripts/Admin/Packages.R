@@ -21,7 +21,9 @@ packagelist <- c(
   "geogrid",
   "rlist",
   "ggiraph",
-  "blogdown"
+  "blogdown",
+  "readxl",
+  "rsconnect"
 )
 
 # Get packages function.
