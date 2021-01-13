@@ -7,10 +7,10 @@ palette(c("#E41A1C", "#377EB8", "#4DAF4A", "#984EA3",
 
 require(shiny)
 require(httr)
-require(openxlsx)
 require(dplyr)
 require(ggplot2)
 require(lubridate)
+require(ggformula)
 
 # Get the parameters
 
@@ -27,9 +27,7 @@ parties_federal <-
 
 # Load the data
 
-dat_loaded_raw <- readWorkbook(
-    loadWorkbook("https://github.com/maparson/ElectionData/blob/master/Data/Polls/federal.xlsx?raw=true")
-)
+dat_loaded_raw <- read.csv("https://github.com/maparson/ElectionData/blob/master/Data/Polls/federal.csv?raw=true")
 
 dat_poll_fed <- tibble(dat_loaded_raw) %>%
     mutate(notmain = if_else(Party %in% parties_federal == FALSE, 1, 0)) %>%
@@ -65,11 +63,11 @@ server <- function(input, output) {
         
         ggplot(data = selectedData(),
                aes(group = ID, colour = Party, x = as.POSIXct(Date), y = Vote)) +
-            geom_point(size = 3.5, 
+            geom_point(size = 4, 
                        position = position_jitter(width=10000), # This jitter helps diff. btwn ties
-                       alpha = 0.5) + 
+                       alpha = 0.6) + 
             geom_spline(aes(group = Party), spar = 0.5,
-                        size = 1, alpha = 0.5) +
+                        size = 1.2, alpha = 0.5) +
             scale_colour_manual(limits = parties_federal, values = colours_federal) +
             theme_minimal(base_size = 15) +
             theme(axis.title.y = element_text(angle = 0, vjust = 0.5)) +
