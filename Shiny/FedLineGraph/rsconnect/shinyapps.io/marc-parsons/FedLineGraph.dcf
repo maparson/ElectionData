@@ -1,0 +1,12 @@
+name: FedLineGraph
+title: FedLineGraph
+username:
+account: marc-parsons
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3467093
+bundleId: 4088675
+url: https://marc-parsons.shinyapps.io/FedLineGraph/
+when: 1610497396.72039
+asMultiple: FALSE
+asStatic: FALSE
